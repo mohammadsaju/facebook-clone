@@ -1,0 +1,31 @@
+.sidebar{
+    padding: 20px 30px;
+    width: 100%;
+    flex: 0.33;
+}
+.sidebar__top{
+    height: 40vh;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+    overflow: scroll;
+}
+.sidebar__top::-webkit-scrollbar{
+    display: none;
+}
+.sidebar__top{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.sidebar > .sidebar__bottom{
+    height: 40vh;
+    width: 100%;
+    overflow: scroll;
+}
+.sidebar__bottom::-webkit-scrollbar{
+    display: none;
+}
+.sidebar__bottom{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

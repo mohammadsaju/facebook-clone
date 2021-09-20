@@ -1,0 +1,62 @@
+.massegeSender{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: #fff;
+   margin-top: 35px;
+   box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+   border-radius: 10px;
+   width: 100%;
+}
+.msgSender__top{
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #eff2f5;
+}
+.msgSender__top > form{
+    flex: 1;
+    display: flex;
+}
+.msgSender__top > form > input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 22px;
+    background: #eff2f5;
+    margin: 0 10px;
+    border-radius: 19px;
+}
+.msgSender__top > form >button {
+    border: none;
+    background-color: #f4419a;
+    border-radius: 5px;
+    width: 98px;
+    height: 34px;
+    color: #3aedbb;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: monospace;
+}
+.msgSenderInput{
+    flex: 1;
+}
+.msgSender__bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.msgSender__options{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gray;
+}
+.msgSender__options > h4 {
+    font-size: medium;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.msgSender__options:hover {
+    background-color: #eff2f5;
+    border-radius: 20px;
+  }
